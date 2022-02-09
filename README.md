@@ -1,7 +1,7 @@
 # PyBer Ride-Sharing Analysis
 
 ## Overview
-PyBer's CEO has requested an analysis for ride-sharing data help the company improve access to ridesharing services and determine affordability to underserved neighborhoods. Our analysis will create visualizations of our ride-share data aggregated by city type - Rural, Suburban and Urban and viewed over time. The visualizations will assist in viewing the relationship between drivers, riders and type of city.  I'll also provide my three recommendations for the business based on the data analysis.
+PyBer's CEO has requested an analysis for ride-sharing data to help the company improve access to ridesharing services and determine affordability to underserved neighborhoods. Our analysis will create visualizations of our ride-share data aggregated by city type - Rural, Suburban and Urban and viewed over time. The visualizations will assist in understanding the relationship between drivers, riders and type of city.  I'll also provide my three recommendations for the business based on this data analysis.
 
 ## Results
 
@@ -12,7 +12,7 @@ We first aggregated data by each city type - Urban, Suburban, and Rural - to vie
 ![City Type Totals](/analysis/City_Type_Totals_Averages_DF.png)
 
 In this chart, we can see that 
-- Rural and Suburban drivers make more than Urban drivers by $10 and $6 respectively
+- Rural and Suburban average fare per ride is greater than Urban drivers by $10 and $6 respectively
 - Rural and suburban drivers make more per trip but there are significantly fewer trips made in both categories when compared to urban rides
   - Urban drivers had 13 times more trips than Rural drivers 
   - Urban drivers had 3 times as many as suburban drivers
@@ -22,7 +22,7 @@ In this chart, we can see that
 
 ### Total Weekly Fares by City Type
 
-We charted out the total fare amounts each week by city type over a 4-month period at the beginning of the year 2019.  Viewing the data over time, we can evaluate if there are significant changes in the amounts earned over time as well as how each city type compares with the others.  Below is the chart rendered to show Fares over Time for each City Type:  
+We charted out the total fare amounts each week by city type over a 4-month period in 2019.  Viewing the data over time, we can evaluate if there are significant changes in the amounts earned every week as well as how each city type compares with the others.  Below is the chart rendered to show Fares over Time for each City Type:  
 
 ![Fare Summary](/analysis/PyBer_fare_summary.png)
 
@@ -30,7 +30,7 @@ From this chart, we can see that all three city types have relatively consistent
 
 ## Summary
 
-Based on this data analysis, I would recommend investigating the following three business changes:  
+Based on this data analysis, I would recommend investigating the following three business changes:
 
 1. Decrease the per fare price in rural communities to improve affordability
 2. Decrease the number of Total Drivers in Urban areas to reduce the number of drivers that earned no fares
