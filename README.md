@@ -13,10 +13,11 @@ We first aggregated data by each city type - Urban, Suburban, and Rural - to vie
 
 In this chart, we can see that 
 - Rural and Suburban drivers make more than Urban drivers by $10 and $6 respectively
-- Rural and suburban drivers make more per trip but there are significantly fewer trips made in both categories when compared to urban rides.
-  - Urban drivers had 13 times more trips than Rural and close to three times as many as suburban drivers. 
-- Urban drivers make significantly less per driver than rural and suburban when we take the total fare divided by the total number of drivers.
-- Rural has the highest average fare per ride at $35 followed by suburban at $31 and then Urban at $25.
+- Rural and suburban drivers make more per trip but there are significantly fewer trips made in both categories when compared to urban rides
+  - Urban drivers had 13 times more trips than Rural drivers 
+  - Urban drivers had 3 times as many as suburban drivers
+- Urban drivers make significantly less per driver than rural and suburban drivers when we take the total fare divided by the total number of drivers
+- Rural has the highest average fare per ride at $35 followed by suburban at $31 and then Urban at $25
 
 ### Total Weekly Fares by City Type
 
@@ -24,8 +25,13 @@ We charted out the total fare amounts each week by city type over a 4-month peri
 
 ![Fare Summary](/analysis/PyBer_fare_summary.png)
 
+From this chart, we can see that all three city types have relatively consistant fares earned each each week in their category - urban has the highest fares each week, followed by suburban and then rural.  There are no overlaps in our lines and there the min/max fares in each city type, are not huge swings. There is a slight overall upward trend of total fares in the Urban category with no dips in the 4-month period as low as the minimum which occurred in the first week in January.
 
+## Summary
 
+Based on this data analysis, I would recommend investigating the following three business changes to address improve access and affordability to underserved neighborhoods.  
+
+1. 
 
 By providing visualizations 
 
