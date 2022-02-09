@@ -1,13 +1,13 @@
 # PyBer Ride-Sharing Analysis
 
 ## Overview
-PyBer's CEO has requested an analysis for ride-sharing data help the company improve access to ridesharing services and determine affordability to underserved neighborhoods. Our analysis will create visualizations of our ride-share data aggregated by city type - Rural, Suburban and Urban and viewed over time. The visualizations will assist in viewing the relationship between drivers, riders and types of city.  I'll also provide my three recommendations for the business based on the data analysis.
+PyBer's CEO has requested an analysis for ride-sharing data help the company improve access to ridesharing services and determine affordability to underserved neighborhoods. Our analysis will create visualizations of our ride-share data aggregated by city type - Rural, Suburban and Urban and viewed over time. The visualizations will assist in viewing the relationship between drivers, riders and type of city.  I'll also provide my three recommendations for the business based on the data analysis.
 
 ## Results
 
 ### City Type Summary Data
 
-We first aggregated data by each city type - Urban, Suburban, and Rural - to view number of rides, number of drivers and total fare amouts.  We also calculated the average price of a fare and average fare by driver the city type.  You can see this data in the following chart: 
+We first aggregated data by each city type - Urban, Suburban, and Rural - to view number of rides, number of drivers and total fare amounts.  We also calculated the average price of a fare and average fare by driver the city type.  You can see this data in the following chart: 
 
 ![City Type Totals](/analysis/City_Type_Totals_Averages_DF.png)
 
@@ -18,6 +18,7 @@ In this chart, we can see that
   - Urban drivers had 3 times as many as suburban drivers
 - Urban drivers make significantly less per driver than rural and suburban drivers when we take the total fare divided by the total number of drivers
 - Rural has the highest average fare per ride at $35 followed by suburban at $31 and then Urban at $25
+- The urban driver count exceeds the number of rides available indicating some drivers didn't earn a fare
 
 ### Total Weekly Fares by City Type
 
@@ -25,24 +26,12 @@ We charted out the total fare amounts each week by city type over a 4-month peri
 
 ![Fare Summary](/analysis/PyBer_fare_summary.png)
 
-From this chart, we can see that all three city types have relatively consistant fares earned each each week in their category - urban has the highest fares each week, followed by suburban and then rural.  There are no overlaps in our lines and there the min/max fares in each city type, are not huge swings. There is a slight overall upward trend of total fares in the Urban category with no dips in the 4-month period as low as the minimum which occurred in the first week in January.
+From this chart, we can see that all three city types have relatively consistent fares earned each week in their category - urban has the highest fares each week, followed by suburban and then rural.  There are no overlaps in our lines and the min/max fares in each city type do not show huge swings. There is a slight overall upward trend of total fares in the Urban category with no dips in the 4-month period as low as the minimum which occurred in the first week in January.
 
 ## Summary
 
-Based on this data analysis, I would recommend investigating the following three business changes to address improve access and affordability to underserved neighborhoods.  
+Based on this data analysis, I would recommend investigating the following three business changes:  
 
-1. 
-
-By providing visualizations 
-
-Overview of the analysis: Explain the purpose of the new analysis.
-Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
-Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-
-Relationship betweens drivers, riders and type of cities.
-
-Improve access to ridesharing services and determine affordability to underserved neighborhoods.
-
-
-creating visualizations of rideshare data for PyBer to help 
-improve access to ride-sharing services and determine affordability for underserved neighborhoods. 
+1. Decrease the per fare price in rural communities to improve affordability
+2. Decrease the number of Total Drivers in Urban areas to reduce the number of drivers that earned no fares
+3. Possibly increase the number of Drivers in Rural areas - A further investigation of ride requests abandoned would be helpful to determining if this is necessary.  If the existing number of drivers fully served the requests, this might not be necessary.  If ride requests went unfulfilled, then the increase would be prudent.
