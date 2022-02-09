@@ -5,7 +5,7 @@ PyBer's CEO has requested an analysis for ride-sharing data help the company imp
 
 ## Results
 
-
+![City Type Totals](/analysis/City_Type_Totals_Averages_DF.png)
 
 By providing visualizations 
 
